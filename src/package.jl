@@ -15,7 +15,7 @@ tpl = Template(;
         License(; name = "MIT"),
         GitHubActions(; x86 = true),
         CompatHelper(),
-        Coveralls(),
+        Codecov(),
         Documenter{GitHubActions}(),
         Formatter(; style = "sciml")
     ]
