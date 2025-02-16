@@ -1,6 +1,6 @@
 module JuliaPackageTemplate
 
-using DispatchDoctor
+using DispatchDoctor: @stable
 
 @stable default_mode="error" begin # Change to disable in production
     """
