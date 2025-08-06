@@ -7,11 +7,7 @@ version = "1.0.0-DEV"
 DispatchDoctor = "8d63f2c5-f18a-4cf2-ba9d-b3f60fc568c8"
 
 [compat]
-Aqua = "0.8"
-DispatchDoctor = "0.4.19"
-Test = "1.11"
-TestItemRunner = "1.1.0"
-TestItems = "1.0.0"
+DispatchDoctor = "0.4"
 julia = "1.11"
 
 [extras]
@@ -19,6 +15,7 @@ Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 TestItemRunner = "f8b46487-2199-4994-9208-9a1283c18c0a"
 TestItems = "1c621080-faea-4a02-84b6-bbd5e436b8fe"
+Preferences = "21216c6a-2e73-6563-6e65-726566657250"
 
 [targets]
-test = ["Aqua", "Test", "TestItemRunner", "TestItems"]
+test = ["Aqua", "Test", "TestItemRunner", "TestItems", "Preferences"]
